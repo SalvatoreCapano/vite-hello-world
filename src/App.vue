@@ -1,7 +1,9 @@
 <script setup>
-  import HelloWorld from './components/AppTitle.vue'
+  import AppTitle from './components/AppTitle.vue'
+  import AppHero from './components/AppHero.vue'
 </script>
 
 <template>
-  <HelloWorld/>
+  <AppHero/>
+  <AppTitle/>
 </template>
